@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Niğmet Vinç ve Forklift</title>
+    <meta name="description" content="Niğmet Vinç ve Forklift - Keşan ve çevresinde vinç ve forklift kiralama, ağır yük kaldırma ve taşımacılık hizmetleri." />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <header class="navbar" id="navbar">
+      <div class="container nav-inner">
+        <a href="#home" class="brand">
+          <!-- Logo dosyanızı images/logo.png olarak ekleyin -->
+          <img src="images/logo.png" alt="Niğmet Vinç ve Forklift" />
+          <span class="brand-title">Niğmet Vinç &amp; Forklift</span>
+        </a>
+        <button class="nav-toggle" aria-expanded="false" aria-controls="mobileMenu" aria-label="Menüyü aç/kapat">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+        <!-- Desktop Menu -->
+        <nav class="menu desktop-menu" aria-label="Ana menü">
+          <a href="#home">Ana Sayfa</a>
+          <a href="#services">Hizmetlerimiz</a>
+          <a href="#about">Hakkımızda</a>
+          <a href="#gallery">Galeri</a>
+          <a href="#contact">İletişim</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=B%C3%BCy%C3%BCk%20Cami%2C%20Efes%20bulvar%C4%B1%20no%3A71%2C%2022800%20Ke%C5%9Fan%2FEdirne" target="_blank" rel="noopener" class="nav-location" aria-label="Konum">
+            <i class="fas fa-map-marker-alt"></i>
+          </a>
+        </nav>
+        
+        <!-- Mobile Menu -->
+        <nav class="mobile-menu" id="mobileMenu" aria-label="Mobil menü" hidden>
+          <div class="mobile-menu-header">
+            <a href="#home" class="mobile-brand">
+              <img src="images/logo.png" alt="Niğmet Vinç ve Forklift" class="mobile-logo" />
+              <span>Niğmet Vinç</span>
+            </a>
+            <button class="menu-close" aria-label="Menüyü kapat">
+              <i class="fas fa-times"></i>
+            </button>
+          </div>
+          <a href="#home">Ana Sayfa</a>
+          <a href="#services">Hizmetlerimiz</a>
+          <a href="#about">Hakkımızda</a>
+          <a href="#gallery">Galeri</a>
+          <a href="#contact">İletişim</a>
+          <a href="https://www.google.com/maps/search/?api=1&query=B%C3%BCy%C3%BCk%20Cami%2C%20Efes%20bulvar%C4%B1%20no%3A71%2C%2022800%20Ke%C5%9Fan%2FEdirne" target="_blank" rel="noopener" class="nav-location">
+            <i class="fas fa-map-marker-alt"></i> Konum
+          </a>
+        </nav>
+        <div class="nav-overlay" hidden></div>
+      </div>
+    </header>
+
+    <!-- Hero / Slider -->
+    <section id="home" class="section hero">
+      <div class="slider" id="heroSlider" aria-label="Tanıtım görselleri">
+        <!-- Not: Kendi görsellerinizin adlarını aşağıdaki src değerleri ile eşleştirin.
+             Örn: images/slide1.jpg, images/slide2.jpg, images/slide3.jpg -->
+        <div class="slide active" style="background-image: url('images/slide1.jpg');"></div>
+        <div class="slide" style="background-image: url('images/slide2.jpg');"></div>
+        <div class="slide" style="background-image: url('images/slide3.jpg');"></div>
+        <div class="overlay"></div>
+        <div class="hero-content container">
+          <h1>Niğmet Vinç ve Forklift</h1>
+          <p class="subtitle">Güvenilir Çözümler, 7/24 Hizmet</p>
+          <div class="hero-actions">
+            <a href="#services" class="btn btn-glass">Hizmetlerimiz</a>
+            <a href="#contact" class="btn btn-glass">İletişim</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hizmetlerimiz -->
+    <section id="services" class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Hizmetlerimiz</h2>
+          <span class="divider"></span>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card"><h3>Vinç Kiralama</h3></article>
+          <article class="service-card"><h3>Forklift Kiralama</h3></article>
+          <article class="service-card"><h3>Ağır Yük Kaldırma ve Taşıma</h3></article>
+          <article class="service-card"><h3>konteyner taşıma</h3></article>
+          <article class="service-card"><h3>Sanayi ve Fabrika Taşımacılığı</h3></article>
+          <article class="service-card"><h3>Araç kurtarma</h3></article>
+          <article class="service-card"><h3>Günlük / Saatlik Kiralama Seçenekleri</h3></article>
+          <article class="service-card"><h3>7/24 Acil Vinç Hizmeti</h3></article>
+        </div>
+
+        <div class="extra-services">
+          <h4>Ek Hizmetler</h4>
+          <div class="extra-grid">
+            <article class="extra-card"><h5>Makine ve Ekipman Taşıma</h5></article>
+            <article class="extra-card"><h5>Yükleme ve Boşaltma Hizmetleri</h5></article>
+            <article class="extra-card"><h5>İnşaat Vinç Hizmetleri</h5></article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Hakkımızda -->
+    <section id="about" class="section about">
+      <div class="container about-inner">
+        <div class="about-text">
+          <div class="section-head lined">
+            <h2>Hakkımızda</h2>
+          </div>
+          <p>
+            Keşan merkezli firmamız, vinç ve forklift kiralama alanında güvenilir
+            çözümler sunmaktadır. İnşaat, sanayi ve ağır yük kaldırma işleriniz için
+            modern ekipman ve deneyimli kadromuzla hizmet veriyoruz. 7/24 kesintisiz
+            hizmet anlayışımızla hızlı, güvenli ve uygun fiyatlı çözümler sunarak
+            müşteri memnuniyetini ön planda tutuyoruz.
+          </p>
+
+          <div class="about-cta">
+            <a href="#contact" class="btn btn-primary with-arrow">Detaylar</a>
+          </div>
+        </div>
+
+        <div class="about-visual">
+          <div class="image-frame">
+            <!-- Sağ görseli images/about.jpg olarak ekleyin -->
+            <img src="images/about.jpg" alt="Niğmet Vinç ve Forklift - Hakkımızda" />
+            <div class="since-badge" aria-label="Kuruluş yılı">SINCE 2024</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Galeri -->
+    <section id="gallery" class="section section-alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Galeri</h2>
+          <span class="divider"></span>
+        </div>
+
+        <!-- Not: Galeri görsellerini images/ klasörüne ekleyin ve aşağıdaki src'leri güncelleyin. -->
+        <div class="gallery-grid">
+          <figure class="gallery-item"><img src="images/gallery1.jpg" alt="Galeri 1" /></figure>
+          <figure class="gallery-item"><img src="images/gallery2.jpg" alt="Galeri 2" /></figure>
+          <figure class="gallery-item"><img src="images/gallery3.jpg" alt="Galeri 3" /></figure>
+          <figure class="gallery-item"><img src="images/gallery4.jpg" alt="Galeri 4" /></figure>
+          <figure class="gallery-item"><img src="images/gallery5.jpg" alt="Galeri 5" /></figure>
+          <figure class="gallery-item"><img src="images/gallery6.jpg" alt="Galeri 6" /></figure>
+          <figure class="gallery-item"><img src="images/gallery7.jpg" alt="Galeri 7" /></figure>
+          <figure class="gallery-item"><img src="images/gallery8.jpg" alt="Galeri 8" /></figure>
+          <figure class="gallery-item"><img src="images/gallery9.jpg" alt="Galeri 9" /></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- İletişim -->
+    <section id="contact" class="section contact">
+      <div class="container contact-inner">
+        <div class="section-head">
+          <h2>İletişim</h2>
+          <span class="divider"></span>
+        </div>
+        <div class="contact-icons">
+          <a class="contact-icon location-icon" href="https://www.google.com/maps/search/?api=1&query=B%C3%BCy%C3%BCk%20Cami%2C%20Efes%20bulvar%C4%B1%20no%3A71%2C%2022800%20Ke%C5%9Fan%2FEdirne" target="_blank" rel="noopener" aria-label="Konum">
+            <div class="icon-container">
+              <i class="fas fa-map-marker-alt"></i>
+              <span class="icon-label">Konum</span>
+            </div>
+          </a>
+          <a class="contact-icon reviews-icon" href="https://g.page/r/Ce-LyKikeQUvEAE/review" target="_blank" rel="noopener" aria-label="Yorumlar">
+            <div class="icon-container">
+              <i class="fas fa-comment-alt"></i>
+              <span class="icon-label">Yorumlar</span>
+            </div>
+          </a>
+        </div>
+        <div class="contact-cards">
+          <article class="contact-card">
+            <h3>Cengiz BİRER</h3>
+            <p class="phone"><a href="tel:+905314917120" class="tel">+90 531 491 71 20</a></p>
+            <a href="tel:+905314917120" class="btn btn-primary" aria-label="Cengiz BİRER'i ara">📞 Ara</a>
+          </article>
+          <article class="contact-card">
+            <h3>Mustafa BİRER</h3>
+            <p class="phone"><a href="tel:+905441512251" class="tel">+90 544 151 22 51</a></p>
+            <a href="tel:+905441512251" class="btn btn-primary" aria-label="Mustafa BİRER'i ara">📞 Ara</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>© 2025 Niğmet Vinç ve Forklift | Tüm Hakları Saklıdır.</p>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+  </html>
+
+
